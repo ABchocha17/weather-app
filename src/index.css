@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.app{background: #000;color: #fff;width: 100%;height: 100vh;overflow: hidden;display: flex;align-items: center;justify-content: center;padding: 20px;flex-direction: column;}
+
+.container{width: 600px;}
+.card{border: 1px solid #fff;width: 100%;margin: 20px 0px;padding: 20px;background: rgba(255,255,255,.3);border-radius: 5px;}
+h1{margin-bottom: 15px;}
+.search{display: flex;flex-wrap: wrap;}
+.search input{flex: 1;height: 40px;border-radius: 5px 0px 0px 5px;background: transparent;border: 1px solid #fff;color: #fff;padding: 0 15px;}
+.search button{border-radius: 0px 5px 5px 0px;}
+button{padding: 0px 15px;height: 40px;border-radius: 5px;background: #fff;color: #000;border: 1px solid #fff;transition: all .3s;cursor: pointer;}
+button:hover{color: #fff;background: #000;}
+input:focus{outline: 0;}
